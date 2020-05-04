@@ -1,0 +1,19 @@
+pno=int(input("Enter Product Number : "))
+pname=input("Enter Product Name   : ")
+price=float(input("Enter Product Price : "))
+qty=int(input("Enter Quantity     : "))
+
+total=price*qty
+disc=total*10/100
+net_amount=total-disc
+
+print("\t\tProduct Number  : ",pno)
+print("-" * 50)
+print("\tProduct Name      : ",pname)
+print("\tProduct Price     : ",price)
+print("\tProduct Quantity  : ", qty)
+print("\n\tProduct Total   : ",total)
+print("\tProducr Disc      : ",disc)
+print("\tNet Amount        : ",net_amount)
+print("-" * 50)
+print("Thank You Visit Again")
