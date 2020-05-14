@@ -1,0 +1,14 @@
+# Guess number game
+
+import random
+x=random.randint(1,10)
+
+n=int(input("Take a guess [1-10] : "))
+
+if  n==x :
+    print("Wow1 Congratulations. You guessed my number correctly.")
+
+else :
+    print("Oop's Your guess was wrong . I was thinking,...",x)
+    
+    
