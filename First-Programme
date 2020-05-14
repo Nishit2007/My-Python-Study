@@ -3,9 +3,6 @@ pname=input("Enter Product Name   : ")
 price=float(input("Enter Product Price : "))
 qty=int(input("Enter Quantity     : "))
 
-total=price*qty
-disc=total*10/100
-net_amount=total-disc
 
 print("\t\tProduct Number  : ",pno)
 print("-" * 50)
