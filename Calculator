@@ -1,0 +1,19 @@
+a= int(input("Enter a number : "))
+b= int(input("Enter a second number : "))
+c= input("Enter Operator : ")
+d= "add"
+e= "subtract"
+f= "multiply"
+g= "divide"
+if (c==d):
+    h = a+b
+    print(h)
+elif (c==e):
+    i=a-b
+    print(i)
+elif (c==f):
+    j=a*b
+    print(j)
+else:
+    k=a/b
+    print(k)
